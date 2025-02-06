@@ -13,7 +13,7 @@ RUN npm install
 # Copying the major source code
 COPY . /usr/app/
 
-# Environment Variables for the mongoose
+# Environment Variables for the mongodb
 ENV MONGO_URI=uriPlaceholder
 ENV MONGO_USERNAME=usernamePlaceholder
 ENV MONGO_PASSWORD=passwordPlaceholder
